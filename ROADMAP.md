@@ -22,7 +22,7 @@ Priority order agreed from the product discussion. Checked items are implemented
 - [x] Choose whether same-name groups stay separate, receive distinct names, or merge.
 - [x] Report duplicate URLs; let the user decide whether to remove them.
 - [x] Add safe undo for the newly combined result.
-- [ ] Later: merge into an existing workspace with conflict preview, revision checks, and undo.
+- [x] Merge into an existing workspace with a before/after preview, revision checks, and undo while the result is unchanged.
 
 - [x] Starter templates: Add to workspace with existing/new window selection, preview, group conflict choices, and stale-save protection.
 
