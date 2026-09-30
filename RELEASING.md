@@ -39,7 +39,7 @@ Check data compatibility before restoring older code. A previous build might not
 ## Remaining release gates
 
 - Installed Chrome and Edge acceptance, including upgrade and conflict scenarios.
-- Final icons and screenshots from the actual extension, replacing placeholders and sample UI previews.
+- Verify product icons in both installed browsers and capture listing screenshots from the actual extension, replacing sample UI previews.
 - Accurate privacy disclosures, support details, and dependency/license review.
 - Publisher accounts, listing ownership, and owner decision to submit.
 - Monetization design, separately from the current local feature set.

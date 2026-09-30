@@ -2,6 +2,12 @@
 
 WorkspaceOps is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
+## 0.3.4
+
+- Replace placeholder extension icons with blue-grey artwork depicting a browser window and nested groups.
+- Generate consistent 16, 32, 48, and 128 pixel icons with transparent rounded corners; validate packaged PNG dimensions during builds.
+- Installed-browser icon checks and final store screenshots remain pending.
+
 ## 0.3.3
 
 - About links to the current privacy/data-handling document and support guide.

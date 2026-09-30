@@ -83,7 +83,8 @@ This is the selected default direction. The proposed starting colors below must 
 This is a gate before public release, regardless of feature priority.
 
 - [ ] Complete live Chrome and Edge acceptance testing for each released change.
-- [ ] Final icons and installed-extension listing screenshots.
+- [x] Replace placeholder icons with blue-grey browser/group artwork at all required extension sizes.
+- [ ] Verify icon appearance in installed Chrome/Edge and capture final listing screenshots.
 - [x] Document current privacy/data handling and the public support channel; link them from About.
 - [x] Review bundled runtime dependency notices and enforce matching licenses/versioned notices during builds.
 - [ ] Recheck final store disclosures and dependencies against the release candidate before submission.
