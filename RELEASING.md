@@ -14,6 +14,12 @@ WorkspaceOps currently automates verification and packaging. Browser-store publi
 
 This is continuous integration with packaged delivery candidates. It is not automatic deployment to customers. Public documentation can be updated independently of the private source.
 
+## Verifying a packaged candidate
+
+Each package now comes with a separate build record containing the version, checkout reference, whether that checkout had uncommitted changes, the dependency-lock checksum, and checksums for the ZIP and its individual files. The private CI artifact includes both files. Keep the record with the ZIP, and use the verification command described in the private development guide to detect mismatches after copying or downloading it.
+
+The record is unsigned and does not prove who produced a package. It describes the checkout at packaging time; the successful CI run is the build evidence. Browser acceptance and store submission are explicitly unrecorded until tested or performed separately. A matching checksum does not make a build ready for store submission.
+
 ## Versions and upgrade safety
 
 Keep the application package, lockfile, manifest, and release notes aligned. During development, use patch versions for fixes and small compatible additions and minor versions for a substantial feature milestone. Reserve 1.0.0 for the first accepted stable release. Export format and local storage schema versions are separate from the application version.

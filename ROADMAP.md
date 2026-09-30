@@ -89,6 +89,7 @@ This is a gate before public release, regardless of feature priority.
 - [x] Review bundled runtime dependency notices and enforce matching licenses/versioned notices during builds.
 - [ ] Recheck final store disclosures and dependencies against the release candidate before submission.
 - [x] Document versioning, rollback, and store submission steps; see [release process](RELEASING.md).
+- [x] Include a package verification record with ZIP/file checksums and checkout details; keep browser acceptance explicitly separate.
 - [ ] Decide monetization after validating the core experience; no billing secrets in extension code.
 
 ## 8. Optional cloud and team features
