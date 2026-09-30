@@ -30,7 +30,7 @@ Priority order agreed from the product discussion. Checked items are implemented
 
 - [x] Replace decorative sidebar space with working navigation and actions.
 - [x] Show workspace count and quick capture.
-- [ ] Add multi-select actions for combine and export.
+- [x] Add multi-select actions for combine and export.
 - [ ] Add Favorites and Recently opened views.
 - [x] Add Templates navigation.
 - [x] Link the prioritized roadmap from the bottom of the sidebar.
