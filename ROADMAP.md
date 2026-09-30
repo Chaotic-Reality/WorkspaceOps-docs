@@ -101,7 +101,7 @@ This is a gate before public release, regardless of feature priority.
 
 Agreed direction from the competitor review; implementation remains pending. Complete the release gate before public launch.
 
-- [ ] Search saved tab titles, URLs, domains, and groups; open individual results.
+- [x] Search saved tab titles, URLs, domains, and groups; open individual results or all matches from a workspace card.
 - [ ] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
 - [ ] Add local snapshots, version comparison, and selective recovery.
 - [ ] Capture individual tabs/groups through quick toolbar and context-menu actions.
