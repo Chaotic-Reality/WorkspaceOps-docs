@@ -31,10 +31,10 @@ Priority order agreed from the product discussion. Checked items are implemented
 - [x] Replace decorative sidebar space with working navigation and actions.
 - [x] Show workspace count and quick capture.
 - [x] Add multi-select actions for combine and export.
-- [ ] Add Favorites and Recently opened views.
+- [x] Add Favorites and Recently opened views.
 - [x] Add Templates navigation.
 - [x] Link the prioritized roadmap from the bottom of the sidebar.
-- [ ] Add an About page with version, ownership, privacy/storage details, support, and release notes.
+- [x] Add an About page with version, ownership, privacy/storage details, support, and release notes.
 - [ ] Add collections (for example Personal, Work, Projects), separate from tab groups.
 - [ ] Place Appearance, Settings, and local storage status in the sidebar.
 - [ ] Make the rail collapsible and use a drawer or top navigation at narrow widths.
@@ -96,4 +96,5 @@ This is a gate before public release, regardless of feature priority.
 ## Working approach
 
 Finish and verify one feature milestone at a time. Commit each milestone, then let GitHub Actions check it. Treat suggested enhancements as planned work, not as existing capabilities. Retain existing user workspaces throughout upgrades.
+
 
