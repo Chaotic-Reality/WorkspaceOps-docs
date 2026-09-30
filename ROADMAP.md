@@ -86,12 +86,16 @@ This is a gate before public release, regardless of feature priority.
 - [x] Replace placeholder icons with blue-grey browser/group artwork at all required extension sizes.
 - [ ] Verify icon appearance in installed Chrome/Edge and capture final listing screenshots.
 - [x] Document current privacy/data handling and the public support channel; link them from About.
+- [x] Add a plain-language privacy statement and proprietary application license statement.
+- [x] Use consistent outline navigation/template icons and keep Roadmap/About together at the bottom of the sidebar.
 - [x] Review bundled runtime dependency notices and enforce matching licenses/versioned notices during builds.
 - [ ] Recheck final store disclosures and dependencies against the release candidate before submission.
 - [x] Prepare draft store descriptions, permission explanations, and reviewer test steps; see [store listing preparation](STORE_LISTING.md). Submission remains pending.
 - [x] Document versioning, rollback, and store submission steps; see [release process](RELEASING.md).
 - [x] Include a package verification record with ZIP/file checksums and checkout details; keep browser acceptance explicitly separate.
 - [ ] Decide monetization after validating the core experience; no billing secrets in extension code.
+- [x] Prepare a private free/paid proposal; pricing and entitlements are not implemented or announced.
+- [ ] Validate demand for optional automation, workspace version history, and opt-in sync before building paid tiers.
 
 ## 8. Optional cloud and team features
 

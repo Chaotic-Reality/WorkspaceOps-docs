@@ -2,6 +2,12 @@
 
 Last updated: September 30, 2026. Applies to the current local-only WorkspaceOps development builds, owned by Chaotic-Reality. Store availability has not been announced.
 
+## Our privacy statement
+
+WorkspaceOps helps you organize your tabs without sending your saved workspaces to us. The current extension keeps workspace information and preferences on your device. We do not receive, sell, or use that locally stored workspace data for advertising. No WorkspaceOps account is required.
+
+You choose when to capture, import, export, or open a workspace. Exporting creates a file you control; opening a workspace connects your browser to the saved websites. Information you voluntarily post in public support issues is separate from the extension's local data and is publicly visible on GitHub. The details below explain these boundaries and how to remove your local data.
+
 ## Data kept on your device
 
 When you capture or save a workspace, WorkspaceOps stores its name and description; supported HTTP/HTTPS tab URLs and titles; window and tab order; pinned and active state; group names, colors, and collapsed state; and workspace identifiers and creation/update times.

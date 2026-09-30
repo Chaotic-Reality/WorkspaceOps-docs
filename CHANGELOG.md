@@ -2,6 +2,12 @@
 
 WorkspaceOps is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
+## 0.3.5
+
+- Consistent outline icons for navigation and templates.
+- Roadmap and About grouped at the bottom of the left navigation.
+- Plain-language privacy statement and proprietary license statement, linked from About.
+
 ## 0.3.4
 
 - Replace placeholder extension icons with blue-grey artwork depicting a browser window and nested groups.
