@@ -1,0 +1,23 @@
+# About WorkspaceOps
+
+WorkspaceOps helps individuals return to a set of browser tabs organized into meaningful groups. It is owned by **Chaotic-Reality** and is being developed first for **Microsoft Edge and Google Chrome**.
+
+## Privacy and storage
+
+Saved workspaces stay in local extension storage within the current browser profile. The current implementation has no telemetry, account system, cloud synchronization, or background upload. Restoring a workspace opens its websites, which then follow their own privacy practices.
+
+Workspace exports contain tab URLs and titles. Review them before sharing. Uninstalling the extension removes its local data, so keep export backups.
+
+## What a workspace contains
+
+A workspace stores windows, supported HTTP/HTTPS tabs, titles, order, pinned state, and tab-group properties. It does not copy cookies, sign-ins, browsing history, form data, native Edge Workspaces, or private browsing sessions.
+
+## Development status
+
+The application is under development and has not been announced as available in browser stores. Public release requires browser acceptance testing, final artwork, privacy disclosures, and store review.
+
+See the [roadmap](ROADMAP.md) for priorities. An About screen inside the extension is planned separately from this document.
+
+## Project ownership
+
+The [Chaotic-Reality GitHub profile](https://github.com/Chaotic-Reality) owns this documentation repository. Public documentation does not make the application source open source. No billing or licensing service is currently implemented.
