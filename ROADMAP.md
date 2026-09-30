@@ -35,9 +35,9 @@ Priority order agreed from the product discussion. Checked items are implemented
 - [x] Add Templates navigation.
 - [x] Link the prioritized roadmap from the bottom of the sidebar.
 - [x] Add an About page with version, ownership, privacy/storage details, support, and release notes.
-- [ ] Add collections (for example Personal, Work, Projects), separate from tab groups.
-- [ ] Place Appearance, Settings, and local storage status in the sidebar.
-- [ ] Make the rail collapsible and use a drawer or top navigation at narrow widths.
+- [x] Add collections (for example Personal, Work, Projects), separate from tab groups.
+- [x] Place Appearance, Settings, and local storage status in the sidebar.
+- [x] Make the rail collapsible and use a drawer or top navigation at narrow widths.
 
 ## 4. Default blue-grey / blue-black design
 
@@ -62,14 +62,14 @@ This is the selected default direction. The proposed starting colors below must 
 
 ## 5. Appearance preferences
 
-- [ ] Clean mode: restrained layout, compact cards, muted surfaces.
-- [ ] Modern mode: stronger hierarchy, richer cards, subtle depth, optional motion.
-- [ ] Preset accent colors and custom color selection.
-- [ ] Light/dark support with accessible text, focus, and selected states.
-- [ ] Compact/comfortable density controls.
-- [ ] Respect reduced-motion preferences.
-- [ ] Persist preferences separately from workspace exports.
-- [ ] Investigate inheriting browser profile colors in Chrome and Edge; do not promise this until a reliable supported mechanism is confirmed. Provide a fallback.
+- [x] Clean mode: restrained layout, compact cards, muted surfaces.
+- [x] Modern mode: stronger hierarchy, richer cards, subtle depth, optional motion.
+- [x] Preset accent colors and custom color selection.
+- [x] Light/dark support with accessible text, focus, and selected states.
+- [x] Compact/comfortable density controls.
+- [x] Respect reduced-motion preferences.
+- [x] Persist preferences separately from workspace exports.
+- [x] Investigate browser profile colors: no documented supported API found. System light/dark and manual accent selection are provided; see [appearance notes](APPEARANCE.md).
 
 ## 6. Faster everyday use
 
@@ -96,5 +96,7 @@ This is a gate before public release, regardless of feature priority.
 ## Working approach
 
 Finish and verify one feature milestone at a time. Commit each milestone, then let GitHub Actions check it. Treat suggested enhancements as planned work, not as existing capabilities. Retain existing user workspaces throughout upgrades.
+
+
 
 
