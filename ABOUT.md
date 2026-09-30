@@ -2,6 +2,10 @@
 
 ROVER Workspaces helps individuals return to a set of browser tabs organized into meaningful groups. It is owned by **Chaotic-Reality** and is being developed first for **Microsoft Edge and Google Chrome**.
 
+## Brand and domains
+
+The primary product domain is [roverworkspaces.com](https://roverworkspaces.com/), with [roverws.com](https://roverws.com/) reserved as a shorter address. The site and browser-store listings are still being prepared; domain ownership does not imply store availability.
+
 ## Privacy and storage
 
 Saved workspaces stay in local extension storage within the current browser profile. The current implementation has no telemetry, account system, cloud synchronization, or background upload. Restoring a workspace opens its websites, which then follow their own privacy practices.
