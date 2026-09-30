@@ -109,6 +109,7 @@ Agreed direction from the competitor review; implementation remains pending. Com
 - [ ] Preview imports from Toby exports, browser bookmark HTML, and pasted URL lists.
 - [ ] Add reusable workspace recipes with user-supplied project values.
 - [ ] Preview local organization rules and duplicate cleanup.
+- [x] Simplify workspace cards: put title beside selection, remove duplicate visual previews, and let users choose how many group chips appear.
 
 ## 9. Launch learning and feedback
 

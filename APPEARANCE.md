@@ -1,6 +1,6 @@
 # Appearance and local organization
 
-Open **Appearance & settings** in the sidebar to choose Clean or Modern styling, light/dark/system mode, comfortable or compact density, and a preset or custom accent. Blue-grey is the default.
+Open **Appearance & settings** in the sidebar to choose Clean or Modern styling, light/dark/system mode, comfortable or compact density, how many groups appear on workspace cards, and a preset or custom accent. The default color mode follows the browser/system setting, and blue-grey is the default accent.
 
 Accent button text and link/focus colors are adjusted for readability. Browser tab-group colors remain independent. Reduced-motion preferences are respected.
 
