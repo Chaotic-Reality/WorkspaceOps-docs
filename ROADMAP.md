@@ -97,9 +97,34 @@ This is a gate before public release, regardless of feature priority.
 - [x] Prepare a private free/paid proposal; pricing and entitlements are not implemented or announced.
 - [ ] Validate demand for optional automation, workspace version history, and opt-in sync before building paid tiers.
 
-## 8. Optional cloud and team features
+## 8. Next local workflow improvements
+
+Agreed direction from the competitor review; implementation remains pending. Complete the release gate before public launch.
+
+- [ ] Search saved tab titles, URLs, domains, and groups; open individual results.
+- [ ] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
+- [ ] Add local snapshots, version comparison, and selective recovery.
+- [ ] Capture individual tabs/groups through quick toolbar and context-menu actions.
+- [ ] Preview imports from Toby exports, browser bookmark HTML, and pasted URL lists.
+- [ ] Add reusable workspace recipes with user-supplied project values.
+- [ ] Preview local organization rules and duplicate cleanup.
+
+## 9. Launch learning and feedback
+
+These are future capabilities. The current extension does not upload surveys, feedback, or usage data.
+
+- [ ] Offer a short, skippable onboarding survey about intended use and desired capabilities; separate local preferences from explicitly submitted research answers.
+- [ ] Offer a feedback prompt after several days of actual use, with Later and Do not ask again choices; keep feedback available in About.
+- [ ] Provide a private feedback submission channel, optional reply email, and clear data/retention disclosures before enabling collection.
+- [ ] Evaluate a low-cost submission service with abuse protection, restricted administrative access, deletion support, and operating limits.
+- [ ] Evaluate clearly labeled, non-personalized sponsorship for Free; do not use survey answers, workspace contents, or browsing activity for personalized ads. Review both stores' policies before implementation.
+
+## 10. Far-future profile sync and team features
 
 - [ ] Evaluate browser sync after local workflows are stable.
+- [ ] Introduce user-named WorkspaceOps profiles such as Personal and Work, with explicit mapping of each browser installation/profile to a sync profile.
+- [ ] Support opt-in cross-browser/device cloud sync without automatically merging profiles based on matching names or email addresses.
+- [ ] Design profile isolation, conflict handling, device unlinking, encryption/key recovery, and deletion before enabling sync.
 - [ ] Evaluate OneDrive/SharePoint sync and shared team workspaces.
 - [ ] Add other browsers only when customer demand and market share justify the maintenance cost.
 
