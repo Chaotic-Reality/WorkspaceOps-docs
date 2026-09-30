@@ -1,0 +1,47 @@
+# From a change to a release
+
+WorkspaceOps currently automates verification and packaging. Browser-store publication is not connected to the pipeline. A successful build is a development candidate until Chrome and Edge acceptance is complete.
+
+## The delivery path
+
+1. **Edit locally:** make a focused change and add meaningful regression coverage.
+2. **Check locally:** formatting, lint, unit tests, TypeScript, production build, and package validation must pass.
+3. **Commit:** record a checkpoint. **Push:** back up that checkpoint to the private application repository.
+4. **Continuous integration (CI):** GitHub Actions installs the locked dependencies on a clean runner, repeats the checks, packages the extension, and retains the ZIP artifact for 14 days.
+5. **Acceptance:** install the exact candidate in disposable Chrome and Edge profiles. Test capture, editing, restore, import/export, upgrades, and the changed features. Record browser versions and results.
+6. **Release candidate:** associate the source commit, version, passing CI run, ZIP, checksum, and acceptance record. Keep the archive in private release storage before the CI artifact expires.
+7. **Store review and publication:** submit the approved package to each store, track its review, then verify installation and upgrades from the published listing.
+
+This is continuous integration with packaged delivery candidates. It is not automatic deployment to customers. Public documentation can be updated independently of the private source.
+
+## Versions and upgrade safety
+
+Keep the application package, lockfile, manifest, and release notes aligned. During development, use patch versions for fixes and small compatible additions and minor versions for a substantial feature milestone. Reserve 1.0.0 for the first accepted stable release. Export format and local storage schema versions are separate from the application version.
+
+Test upgrades with existing local workspaces, favorites, collections, and preferences. Exported workspace backups do not include favorites, collections, or appearance preferences. Do not uninstall the user's extension as an upgrade step: local extension data may be removed. Keep the extension identity unchanged.
+
+## Chrome submission
+
+Use the developer account that will own WorkspaceOps. Prepare the ZIP and listing, complete purpose, permission and data-use disclosures, provide test instructions, then submit for review. Chrome offers deferred publishing so review completion need not immediately publish the item. Follow the current [Chrome publishing guide](https://developer.chrome.com/docs/webstore/publish).
+
+## Edge submission
+
+Use the intended publisher's Partner Center account. Create the extension listing, upload the ZIP, complete availability, properties, privacy, listing assets, and certification notes, then submit. Follow the current [Edge publishing guide](https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension). Update the existing listing for subsequent builds rather than creating a new extension identity; see [Edge update instructions](https://learn.microsoft.com/en-us/microsoft-edge/extensions/update/update-extension).
+
+## Recovery and rollback
+
+For a failed local change, preserve uncommitted work and revert the relevant commit with a new commit. Do not rewrite shared history. Build and test the recovered candidate before distributing it.
+
+For a faulty published build, pause further publication, preserve reproduction details, and prepare a corrective release. Our default recovery procedure is to restore the known-good behavior in a new, higher application version and submit that tested package. Do not assume that uploading an older version will downgrade users. Store review and browser update timing mean recovery is not instantaneous.
+
+Check data compatibility before restoring older code. A previous build might not understand data written by a newer schema. Restore from a user-exported backup only after reviewing what it contains; an application rollback is not a data rollback.
+
+## Remaining release gates
+
+- Installed Chrome and Edge acceptance, including upgrade and conflict scenarios.
+- Final icons and screenshots from the actual extension, replacing placeholders and sample UI previews.
+- Accurate privacy disclosures, support details, and dependency/license review.
+- Publisher accounts, listing ownership, and owner decision to submit.
+- Monetization design, separately from the current local feature set.
+
+Process documented September 2026. Store dashboards and requirements can change; consult the linked official instructions at submission time.

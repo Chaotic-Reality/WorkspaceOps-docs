@@ -84,7 +84,7 @@ This is a gate before public release, regardless of feature priority.
 
 - [ ] Complete live Chrome and Edge acceptance testing for each released change.
 - [ ] Final icons, screenshots, privacy disclosures, support contact, and dependency review.
-- [ ] Document versioning, rollback, and store submission steps.
+- [x] Document versioning, rollback, and store submission steps; see [release process](RELEASING.md).
 - [ ] Decide monetization after validating the core experience; no billing secrets in extension code.
 
 ## 8. Optional cloud and team features
