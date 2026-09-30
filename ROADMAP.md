@@ -73,10 +73,10 @@ This is the selected default direction. The proposed starting colors below must 
 
 ## 6. Faster everyday use
 
-- [ ] Keyboard shortcuts for capture, search, and restore.
-- [ ] Custom group icons or emojis.
-- [ ] Workspace thumbnails generated locally from group colors/titles.
-- [ ] Import conflict choices: add copy, replace, or merge with preview.
+- [x] Keyboard shortcuts for capture, search, and restore within the manager.
+- [x] Custom group emojis, including a picker and typed/pasted emoji names.
+- [x] Workspace thumbnails generated locally from group colors/titles.
+- [x] Import conflict choices: add copy, replace, or merge with preview and atomic stale-destination protection.
 
 ## 7. Release readiness
 
@@ -96,7 +96,3 @@ This is a gate before public release, regardless of feature priority.
 ## Working approach
 
 Finish and verify one feature milestone at a time. Commit each milestone, then let GitHub Actions check it. Treat suggested enhancements as planned work, not as existing capabilities. Retain existing user workspaces throughout upgrades.
-
-
-
-

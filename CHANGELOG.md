@@ -2,6 +2,17 @@
 
 WorkspaceOps is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
+## 0.3.2
+
+- Import JSON/YAML as copies, replacements, or merges after choosing destinations and reviewing before/after counts.
+- Imports save as one operation. A destination changed since review blocks the entire import, preserving the latest saved data.
+- Replacements retain the destination identity and use imported contents. Merges preserve every window, group, and duplicate tab.
+
+## 0.3.1
+
+- Manager shortcuts: / focuses search, Alt+Shift+C captures, and Alt+Shift+R restores the single selected workspace after confirmation. Shortcuts pause while typing or using dialogs.
+- Group emoji picker and locally generated workspace previews. No page images are fetched.
+
 ## 0.3.0
 
 - Merge into an existing workspace with a preview, revision protection, and safe undo.
@@ -30,4 +41,3 @@ WorkspaceOps is in development. These notes describe development builds, not bro
 - Nested JSON/YAML exports with support for legacy imports.
 - Combine workspaces and add templates to existing workspaces.
 - Blue-grey styling and sidebar shortcuts.
-

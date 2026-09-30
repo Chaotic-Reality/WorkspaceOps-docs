@@ -8,6 +8,9 @@ WorkspaceOps is in development for Microsoft Edge and Google Chrome. Store avail
 
 - [Prioritized roadmap](ROADMAP.md): completed features, upcoming improvements, and release gates.
 - [About WorkspaceOps](ABOUT.md): ownership, privacy, and product boundaries.
+- [Release notes](CHANGELOG.md): changes in development builds.
+- [Appearance](APPEARANCE.md): styles, colors, and browser theme limitations.
+- [Import guide](IMPORTING.md): copy, replace, merge, and conflict protection.
 
 ## Current capabilities
 
@@ -17,6 +20,9 @@ WorkspaceOps is in development for Microsoft Edge and Google Chrome. Store avail
 - Import and export JSON or YAML, with tabs nested inside their groups.
 - Combine workspaces with a preview and optional duplicate removal.
 - Create workspaces from starter templates or add templates to existing workspaces.
+- Organize with favorites and collections; revisit recently opened workspaces.
+- Choose Clean/Modern styles, system/light/dark colors, custom accents, and density.
+- Use group emojis, local previews, and manager keyboard shortcuts.
 
 Features have automated coverage; live Chrome and Edge acceptance testing remains a release gate. Roadmap items are plans, not delivery commitments.
 
