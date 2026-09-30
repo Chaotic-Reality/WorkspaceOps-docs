@@ -1,6 +1,6 @@
-# About WorkspaceOps
+# About ROVER Workspaces
 
-WorkspaceOps helps individuals return to a set of browser tabs organized into meaningful groups. It is owned by **Chaotic-Reality** and is being developed first for **Microsoft Edge and Google Chrome**.
+ROVER Workspaces helps individuals return to a set of browser tabs organized into meaningful groups. It is owned by **Chaotic-Reality** and is being developed first for **Microsoft Edge and Google Chrome**.
 
 ## Privacy and storage
 

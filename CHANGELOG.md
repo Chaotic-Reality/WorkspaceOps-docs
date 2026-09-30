@@ -1,6 +1,6 @@
-# WorkspaceOps release notes
+# ROVER Workspaces release notes
 
-WorkspaceOps is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
+ROVER Workspaces is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
 ## 0.3.5
 

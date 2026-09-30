@@ -1,10 +1,10 @@
-# WorkspaceOps support
+# ROVER Workspaces support
 
-The current support channel is the [public WorkspaceOps issue tracker](https://github.com/Chaotic-Reality/WorkspaceOps-docs/issues), maintained by Chaotic-Reality. The application is in development; no response-time commitment or private support inbox is currently advertised.
+The current support channel is the [public ROVER Workspaces issue tracker](https://github.com/Chaotic-Reality/WorkspaceOps-docs/issues), maintained by Chaotic-Reality. The application is in development; no response-time commitment or private support inbox is currently advertised.
 
 ## Report a problem
 
-Include the WorkspaceOps version from About, your browser name/version, what you expected, what happened, and the shortest steps that reproduce it. Mention whether the issue started after an update. Use invented workspace names and public example URLs when sharing reproduction steps.
+Include the ROVER Workspaces version from About, your browser name/version, what you expected, what happened, and the shortest steps that reproduce it. Mention whether the issue started after an update. Use invented workspace names and public example URLs when sharing reproduction steps.
 
 Do not attach real workspace exports, browsing history, cookies, credentials, access tokens, or private project URLs. Crop or redact screenshots before uploading. Public issues are visible to everyone; GitHub handles the information you submit under its own policies.
 

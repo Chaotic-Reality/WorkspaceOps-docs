@@ -12,6 +12,6 @@ Replace and merge require an explicit destination. Each destination can be used 
 
 All items save together. If another manager changes or removes a destination after the preview, the entire import is rejected. Cancel, reopen the file, and review the current destination before trying again. Workspace limits still apply, including to merged results.
 
-Exports use the nested version 2.0 format. Legacy version 1.0 files remain supported. Files must fit the 2 MB import limit and pass validation. Imported data stays in local extension storage; it is not uploaded by WorkspaceOps.
+Exports use the nested version 2.0 format. Legacy version 1.0 files remain supported. Files must fit the 2 MB import limit and pass validation. Imported data stays in local extension storage; it is not uploaded by ROVER Workspaces.
 
 This describes development builds starting at 0.3.2. Installed Chrome and Edge acceptance remains pending.

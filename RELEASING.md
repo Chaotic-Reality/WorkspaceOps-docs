@@ -1,6 +1,6 @@
 # From a change to a release
 
-WorkspaceOps currently automates verification and packaging. Browser-store publication is not connected to the pipeline. A successful build is a development candidate until Chrome and Edge acceptance is complete.
+ROVER Workspaces currently automates verification and packaging. Browser-store publication is not connected to the pipeline. A successful build is a development candidate until Chrome and Edge acceptance is complete.
 
 ## The delivery path
 
@@ -28,7 +28,7 @@ Test upgrades with existing local workspaces, favorites, collections, and prefer
 
 ## Chrome submission
 
-Use the developer account that will own WorkspaceOps. Prepare the ZIP and listing, complete purpose, permission and data-use disclosures, provide test instructions, then submit for review. Chrome offers deferred publishing so review completion need not immediately publish the item. Follow the current [Chrome publishing guide](https://developer.chrome.com/docs/webstore/publish).
+Use the developer account that will own ROVER Workspaces. Prepare the ZIP and listing, complete purpose, permission and data-use disclosures, provide test instructions, then submit for review. Chrome offers deferred publishing so review completion need not immediately publish the item. Follow the current [Chrome publishing guide](https://developer.chrome.com/docs/webstore/publish).
 
 ## Edge submission
 

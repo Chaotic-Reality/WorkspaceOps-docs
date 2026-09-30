@@ -1,13 +1,13 @@
-# WorkspaceOps
+# ROVER Workspaces
 
 Save, organize, and restore browser workspaces with groups and tabs arranged the way you work.
 
-WorkspaceOps is in development for Microsoft Edge and Google Chrome. Store availability has not been announced. This repository contains public product documentation; application source and development history remain private.
+ROVER Workspaces is in development for Microsoft Edge and Google Chrome. Store availability has not been announced. This repository contains public product documentation; application source and development history remain private.
 
 ## Documentation
 
 - [Prioritized roadmap](ROADMAP.md): completed features, upcoming improvements, and release gates.
-- [About WorkspaceOps](ABOUT.md): ownership, privacy, and product boundaries.
+- [About ROVER Workspaces](ABOUT.md): ownership, privacy, and product boundaries.
 - [Release notes](CHANGELOG.md): changes in development builds.
 - [Appearance](APPEARANCE.md): styles, colors, and browser theme limitations.
 - [Import guide](IMPORTING.md): copy, replace, merge, and conflict protection.

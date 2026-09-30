@@ -1,4 +1,4 @@
-# WorkspaceOps upgrade roadmap
+# ROVER Workspaces upgrade roadmap
 
 Priority order agreed from the product discussion. Checked items are implemented with automated verification; live browser release acceptance remains a separate gate; an unchecked item is still pending. Chrome and Edge are the supported release targets. Owned by Chaotic-Reality. This documentation is public; application source remains private. Plans may change and do not promise delivery dates.
 
@@ -124,7 +124,7 @@ These are future capabilities. The current extension does not upload surveys, fe
 ## 10. Far-future profile sync and team features
 
 - [ ] Evaluate browser sync after local workflows are stable.
-- [ ] Introduce user-named WorkspaceOps profiles such as Personal and Work, with explicit mapping of each browser installation/profile to a sync profile.
+- [ ] Introduce user-named ROVER Workspaces profiles such as Personal and Work, with explicit mapping of each browser installation/profile to a sync profile.
 - [ ] Support opt-in cross-browser/device cloud sync without automatically merging profiles based on matching names or email addresses.
 - [ ] Design profile isolation, conflict handling, device unlinking, encryption/key recovery, and deletion before enabling sync.
 - [ ] Evaluate OneDrive/SharePoint sync and shared team workspaces.
