@@ -12,6 +12,8 @@ WorkspaceOps is in development for Microsoft Edge and Google Chrome. Store avail
 - [Appearance](APPEARANCE.md): styles, colors, and browser theme limitations.
 - [Import guide](IMPORTING.md): copy, replace, merge, and conflict protection.
 - [Release process](RELEASING.md): CI, packages, acceptance, versioning, and recovery.
+- [Privacy and data handling](PRIVACY.md): local records, permissions, exports, and deletion.
+- [Support](SUPPORT.md): reporting problems without exposing private workspace data.
 
 ## Current capabilities
 

@@ -2,6 +2,11 @@
 
 WorkspaceOps is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
+## 0.3.3
+
+- About links to the current privacy/data-handling document and support guide.
+- Build verification checks that bundled runtime license notices match the installed dependency versions and license texts. Final store disclosures and installed-browser acceptance remain release gates.
+
 ## 0.3.2
 
 - Import JSON/YAML as copies, replacements, or merges after choosing destinations and reviewing before/after counts.

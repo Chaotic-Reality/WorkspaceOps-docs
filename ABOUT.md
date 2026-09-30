@@ -16,7 +16,7 @@ A workspace stores windows, supported HTTP/HTTPS tabs, titles, order, pinned sta
 
 The application is under development and has not been announced as available in browser stores. Public release requires browser acceptance testing, final artwork, privacy disclosures, and store review.
 
-See the [roadmap](ROADMAP.md) for priorities. An About screen inside the extension is planned separately from this document.
+See the [roadmap](ROADMAP.md) for priorities. The extension's About screen shows the installed version and links to these documents. Read the [privacy and data-handling details](PRIVACY.md) and [support guide](SUPPORT.md).
 
 ## Project ownership
 
