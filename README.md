@@ -6,6 +6,7 @@ ROVER Workspaces is in development for Microsoft Edge and Google Chrome. Store a
 
 ## Documentation
 
+- [Wiki user guide](https://github.com/Chaotic-Reality/rover-workspaces-docs/wiki/User-Guide): step-by-step installation, workspace management, import/export, appearance, privacy, and support guidance.
 - [Prioritized roadmap](ROADMAP.md): completed features, upcoming improvements, and release gates.
 - [About ROVER Workspaces](ABOUT.md): ownership, privacy, and product boundaries.
 - [Release notes](CHANGELOG.md): changes in development builds.
