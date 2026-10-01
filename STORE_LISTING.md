@@ -58,10 +58,10 @@ Record these results separately for Chrome and Edge. These are instructions for 
 
 ## Links for the listing
 
-- [Product documentation](https://github.com/Chaotic-Reality/WorkspaceOps-docs)
-- [Privacy and data handling](https://github.com/Chaotic-Reality/WorkspaceOps-docs/blob/main/PRIVACY.md)
-- [Support guide](https://github.com/Chaotic-Reality/WorkspaceOps-docs/blob/main/SUPPORT.md)
-- [Public issue tracker](https://github.com/Chaotic-Reality/WorkspaceOps-docs/issues)
+- [Product documentation](https://github.com/Chaotic-Reality/rover-workspaces-docs)
+- [Privacy and data handling](https://github.com/Chaotic-Reality/rover-workspaces-docs/blob/main/PRIVACY.md)
+- [Support guide](https://github.com/Chaotic-Reality/rover-workspaces-docs/blob/main/SUPPORT.md)
+- [Public issue tracker](https://github.com/Chaotic-Reality/rover-workspaces-docs/issues)
 
 ## Remaining listing assets and decisions
 

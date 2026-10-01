@@ -28,4 +28,4 @@ To the extent permitted by applicable law, ROVER Workspaces is provided “as is
 
 This statement does not create a subscription, payment obligation, or promise of future features, updates, or support. Any future paid offering will need its own disclosed purchase terms. A pricing proposal is not an offer to sell.
 
-For licensing questions, use the [support guide](https://github.com/Chaotic-Reality/WorkspaceOps-docs/blob/main/SUPPORT.md). Do not include sensitive information in public issues.
+For licensing questions, use the [support guide](https://github.com/Chaotic-Reality/rover-workspaces-docs/blob/main/SUPPORT.md). Do not include sensitive information in public issues.

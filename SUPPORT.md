@@ -1,6 +1,6 @@
 # ROVER Workspaces support
 
-The current support channel is the [public ROVER Workspaces issue tracker](https://github.com/Chaotic-Reality/WorkspaceOps-docs/issues), maintained by Chaotic-Reality. The application is in development; no response-time commitment or private support inbox is currently advertised.
+The current support channel is the [public ROVER Workspaces issue tracker](https://github.com/Chaotic-Reality/rover-workspaces-docs/issues), maintained by Chaotic-Reality. The application is in development; no response-time commitment or private support inbox is currently advertised.
 
 ## Report a problem
 
