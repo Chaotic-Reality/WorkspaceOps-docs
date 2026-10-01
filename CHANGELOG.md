@@ -2,6 +2,10 @@
 
 ROVER Workspaces is in development. These notes describe development builds, not browser-store availability. Live Chrome and Edge acceptance remains a release gate.
 
+## Unreleased
+
+- Keep recent local workspace revisions with comparison and whole-revision recovery from each workspace card.
+
 ## 0.3.5
 
 - Consistent outline icons for navigation and templates.

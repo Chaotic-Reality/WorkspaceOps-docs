@@ -104,7 +104,7 @@ Agreed direction from the competitor review; implementation remains pending. Com
 - [x] Search saved tab titles, URLs, domains, and groups; open individual results or all matches from a workspace card.
 - [ ] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
 - [x] Offer open-missing-only restore with URL duplicate detection while preserving the existing full-workspace restore path.
-- [ ] Add local snapshots, version comparison, and selective recovery.
+- [x] Add recent local snapshots, revision comparison, and whole-revision recovery; selective tab/group recovery remains pending.
 - [ ] Capture individual tabs/groups through quick toolbar and context-menu actions.
 - [ ] Preview imports from Toby exports, browser bookmark HTML, and pasted URL lists.
 - [ ] Add reusable workspace recipes with user-supplied project values.
