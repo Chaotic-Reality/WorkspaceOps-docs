@@ -106,7 +106,7 @@ Agreed direction from the competitor review; implementation remains pending. Com
 - [x] Offer open-missing-only restore with URL duplicate detection while preserving the existing full-workspace restore path.
 - [x] Add recent local snapshots, revision comparison, and whole-revision recovery; selective tab/group recovery remains pending.
 - [x] Capture individual tabs/groups through context-menu actions; toolbar capture remains available for full workspaces.
-- [ ] Preview imports from Toby exports, browser bookmark HTML, and pasted URL lists.
+- [x] Preview imports from browser bookmark HTML and pasted URL lists; Toby-specific export mapping remains pending.
 - [ ] Add reusable workspace recipes with user-supplied project values.
 - [ ] Preview local organization rules and duplicate cleanup.
 - [x] Simplify workspace cards: put title beside selection, remove duplicate visual previews, and let users choose how many group chips appear.
