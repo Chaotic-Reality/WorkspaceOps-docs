@@ -5,6 +5,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 ## Unreleased
 
 - Keep recent local workspace revisions with comparison and whole-revision recovery from each workspace card.
+- Save the current tab or tab group directly from the browser context menu.
 
 ## 0.3.5
 

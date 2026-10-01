@@ -37,6 +37,7 @@ Save, organize, and restore user-selected browser workspaces consisting of windo
 | storage    | Retain saved workspaces, favorites, collections, recent-workspace timestamps, and appearance preferences in the current profile's local extension storage. |
 | tabs       | Access URLs and titles when the user captures a workspace, and create or adjust tabs when the user restores one. Capture is user initiated.                |
 | tabGroups  | Read tab-group names, colors, and collapsed state during capture and restore those properties when reopening saved groups.                                 |
+| contextMenus | Add user-invoked commands to save the current tab or tab group as a local workspace.                                                                       |
 
 The current manifest has no host permissions, content scripts, or remote-code loader. All executable extension code is bundled. Opening a saved website is a normal browser navigation, not a background upload of the workspace to a ROVER Workspaces server.
 
