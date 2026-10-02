@@ -107,8 +107,12 @@ Agreed direction from the competitor review; implementation remains pending. Com
 - [x] Add recent local snapshots, revision comparison, and whole-revision recovery; selective tab/group recovery remains pending.
 - [x] Capture individual tabs/groups through context-menu actions; toolbar capture remains available for full workspaces.
 - [x] Preview imports from browser bookmark HTML and pasted URL lists; Toby-specific export mapping remains pending.
+- [x] Reload the current browser window from a saved workspace while keeping the ROVER manager page open.
 - [ ] Add reusable workspace recipes with user-supplied project values.
+  - **Definition:** Let a user save a repeatable workspace recipe with placeholders such as project name, environment, or client. Applying a recipe should create or update a workspace after showing the resolved URLs and groups for review. Recipes remain local until an explicit sync feature exists.
 - [ ] Preview local organization rules and duplicate cleanup.
+  - **Definition:** Provide a dry-run view of local rules that identify duplicate URLs, stale tabs, empty groups, and naming inconsistencies. The user must review proposed changes before anything is removed, merged, renamed, or moved.
+- **Next decision:** Selective tab/group restore remains the next implementation candidate. It should let a user choose specific windows, groups, or tabs from a restore preview and show which existing tabs would be skipped before opening anything.
 - [x] Simplify workspace cards: put title beside selection, remove duplicate visual previews, and let users choose how many group chips appear.
 
 ## 9. Launch learning and feedback
