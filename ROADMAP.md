@@ -26,7 +26,7 @@ These items make the local product ready for a public release and prepare paid f
 
 ## Priority 3 — licensing and subscriptions
 
-- [ ] Select a hosted checkout/licensing provider. Paddle is the first candidate; Lemon Squeezy and Stripe remain comparison options.
+- [x] Select a hosted checkout/licensing provider for implementation planning: Paddle is the first choice, with Lemon Squeezy as fallback and Stripe as a later comparison; no account is connected.
 - [ ] Implement a server-side entitlement ledger driven by signed purchase, renewal, cancellation, refund, and chargeback events.
 - [ ] Keep the license tied to the purchaser account, not a browser, device, browser profile, or ROVER sync profile.
 - [ ] Support auditable gifted, promotional, support, and pilot Pro grants with optional expiration and no payment event required.

@@ -12,6 +12,8 @@ Last updated: October 3, 2026. ROVER Workspaces is still in development and is n
 
 The final price, billing currency, taxes, billing interval, and included limits will be shown before any purchase. ROVER will not start a paid subscription from the extension without an explicit checkout confirmation.
 
+Paddle is the current implementation-planning candidate for checkout and licensing because its published model has no monthly fee and combines checkout, recurring billing, and merchant-of-record responsibilities. This selection does not connect an account or make Paddle a final launch commitment; fees, eligibility, and terms will be rechecked before launch.
+
 ## Trial
 
 The current local build includes one 15-day, full-feature trial. It starts only when you select **Start 15-day Pro trial**, requires no account, and shows its end date in the extension. At the end of the trial, existing local data remains available and the Free workspace limit applies. A future store or checkout release may use different eligibility rules, which will be disclosed before activation.
