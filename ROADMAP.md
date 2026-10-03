@@ -9,7 +9,7 @@ These items make the local product ready for a public release and prepare paid f
 - [ ] Complete live Chrome and Edge acceptance for the current release candidate, including upgrade, restore, import/export, responsive layout, icons, and conflict scenarios.
 - [ ] Verify final extension icon appearance in installed Chrome and Edge and capture store listing screenshots.
 - [ ] Recheck permissions, privacy disclosures, dependency notices, reviewer steps, and package checksums against the release candidate.
-- [ ] Validate demand for version history, recipes, organization rules, and opt-in sync with a small pilot.
+- [ ] Validate demand for version history, Custom Templates, organization rules, workspace combining, and opt-in sync with a small pilot.
 - [x] Implement local entitlement simulation: `free`, `trial`, `pro-local`, `pro-sync`, and `expired`.
 - [ ] Add a 15-day full-feature trial with clear start/end dates and no account requirement until activation.
 - [x] Limit Free to two workspaces while keeping existing data viewable, exportable, renameable, and deletable after trial expiry.
@@ -17,7 +17,7 @@ These items make the local product ready for a public release and prepare paid f
 
 ## Priority 2 — first paid value
 
-- [x] Add reusable workspace recipes with project placeholders and a resolved preview.
+- [x] Add reusable Custom Templates with project placeholders and a resolved preview.
 - [x] Add local organization rules and duplicate cleanup with a reviewable dry run.
 - [x] Extend local snapshots with selective tab/group recovery and revision comparison.
 - [ ] Add scheduled capture.
