@@ -94,6 +94,7 @@ This is a gate before public release, regardless of feature priority.
 - [x] Prepare draft store descriptions, permission explanations, and reviewer test steps; see [store listing preparation](STORE_LISTING.md). Submission remains pending.
 - [x] Document versioning, rollback, and store submission steps; see [release process](RELEASING.md).
 - [x] Include a package verification record with ZIP/file checksums and checkout details; keep browser acceptance explicitly separate.
+- [x] Define separate store release versions and internal build IDs for reproducible artifact tracing.
 - [ ] Decide monetization after validating the core experience; no billing secrets in extension code.
 - [x] Prepare a private free/paid proposal with a 15-day full-feature trial, two-workspace Free tier, person-bound licensing, and separate Local Pro/Sync Pro value.
 - [ ] Validate demand for optional automation, workspace version history, and opt-in sync before building paid tiers.

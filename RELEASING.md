@@ -22,7 +22,12 @@ The record is unsigned and does not prove who produced a package. It describes t
 
 ## Versions and upgrade safety
 
-Keep the application package, lockfile, manifest, and release notes aligned. During development, use patch versions for fixes and small compatible additions and minor versions for a substantial feature milestone. Reserve 1.0.0 for the first accepted stable release. Export format and local storage schema versions are separate from the application version.
+Use two identifiers with different jobs:
+
+- **Release version:** the semantic version in `package.json` and `manifest.json`. This is the user-facing/store-facing version. Use patch versions for fixes and small compatible additions, minor versions for substantial feature milestones, and reserve `1.0.0` for the first accepted stable release.
+- **Build ID:** the internal identifier in `release/rover-workspaces-build.json`. CI builds use the GitHub Actions run number (`ci-123`); local packages use the source commit (`local-a1b2c3d`). It identifies the exact artifact without changing the store release version.
+
+Keep the application package, lockfile, manifest, and release notes aligned. Export format and local storage schema versions are separate from both the release version and build ID. A store submission increments the release version; a rebuild of the same source release creates a new build ID and must retain its own checksum record.
 
 Test upgrades with existing local workspaces, favorites, collections, and preferences. Exported workspace backups do not include favorites, collections, or appearance preferences. Do not uninstall the user's extension as an upgrade step: local extension data may be removed. Keep the extension identity unchanged.
 
