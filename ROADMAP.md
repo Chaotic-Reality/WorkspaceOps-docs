@@ -10,7 +10,7 @@ These items make the local product ready for a public release and prepare paid f
 - [ ] Verify final extension icon appearance in installed Chrome and Edge and capture store listing screenshots.
 - [ ] Recheck permissions, privacy disclosures, dependency notices, reviewer steps, and package checksums against the release candidate.
 - [ ] Validate demand for version history, recipes, organization rules, and opt-in sync with a small pilot.
-- [ ] Implement local entitlement simulation: `free`, `trial`, `pro-local`, `pro-sync`, and `expired`.
+- [x] Implement local entitlement simulation: `free`, `trial`, `pro-local`, `pro-sync`, and `expired`.
 - [ ] Add a 15-day full-feature trial with clear start/end dates and no account requirement until activation.
 - [ ] Limit Free to two workspaces while keeping existing data viewable, exportable, renameable, and deletable after trial expiry.
 - [ ] Keep local capture, editing, import/export, and restore available after trial expiry.
