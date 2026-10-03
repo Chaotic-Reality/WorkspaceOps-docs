@@ -117,6 +117,8 @@ Agreed direction from the competitor review; implementation remains pending. Com
   - **Definition:** Provide a dry-run view of local rules that identify duplicate URLs, stale tabs, empty groups, and naming inconsistencies. The user must review proposed changes before anything is removed, merged, renamed, or moved.
 - **Next decision:** Selective tab/group restore remains the next implementation candidate. It should let a user choose specific windows, groups, or tabs from a restore preview and show which existing tabs would be skipped before opening anything.
 - [x] Simplify workspace cards: put title beside selection, remove duplicate visual previews, and let users choose how many group chips appear.
+- [x] Reorder workspace cards with drag-and-drop and persist the order locally.
+- [x] Add direct card actions for opening in the current window or new window(s), alongside selective restore and reload.
 
 ## 9. Launch learning and feedback
 
