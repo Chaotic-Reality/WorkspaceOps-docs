@@ -8,6 +8,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 - Show local entitlement status, offer the 15-day trial, and enforce the two-workspace Free creation limit without blocking exports or existing data.
 - Add local Custom Templates with named project placeholders, resolved previews, and apply/save controls.
 - Gate Custom Templates, organization rules, workspace history, and workspace combining with clear ROVER Pro upgrade messaging.
+- Complete the local 15-day full-feature trial flow and preserve the core local workflow after trial expiry.
 - Add a local setting for retaining 5–50 revisions per workspace.
 - Add card-level organization previews for duplicate URLs, empty groups, and trimmed group names before local changes are saved.
 - Add selective opening of groups and tabs from an older workspace revision without replacing the current saved workspace.

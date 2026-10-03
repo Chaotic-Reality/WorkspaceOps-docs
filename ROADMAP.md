@@ -11,9 +11,9 @@ These items make the local product ready for a public release and prepare paid f
 - [ ] Recheck permissions, privacy disclosures, dependency notices, reviewer steps, and package checksums against the release candidate.
 - [ ] Validate demand for version history, Custom Templates, organization rules, workspace combining, and opt-in sync with a small pilot.
 - [x] Implement local entitlement simulation: `free`, `trial`, `pro-local`, `pro-sync`, and `expired`.
-- [ ] Add a 15-day full-feature trial with clear start/end dates and no account requirement until activation.
+- [x] Add a 15-day full-feature trial with clear start/end dates and no account requirement until activation.
 - [x] Limit Free to two workspaces while keeping existing data viewable, exportable, renameable, and deletable after trial expiry.
-- [ ] Keep local capture, editing, import/export, and restore available after trial expiry.
+- [x] Keep local capture, editing, import/export, and restore available after trial expiry.
 
 ## Priority 2 — first paid value
 
