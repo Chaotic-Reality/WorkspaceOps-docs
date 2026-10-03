@@ -16,6 +16,8 @@ ROVER Workspaces is in development for Microsoft Edge and Google Chrome. Store a
 - [Privacy and data handling](PRIVACY.md): local records, permissions, exports, and deletion.
 - [License statement](LICENSE.md): permitted use, reserved application rights, and ownership of your data.
 - [Support](SUPPORT.md): reporting problems without exposing private workspace data.
+- [Pricing](PRICING.md): planned Free, Pro Local, and Pro Sync access and trial disclosure.
+- [Trial and subscription terms](TERMS.md): pre-release cancellation, refund, renewal, and promotional-access terms.
 - [Store listing preparation](STORE_LISTING.md): draft descriptions, permission explanations, and reviewer test steps; not submitted.
 
 ## Current capabilities

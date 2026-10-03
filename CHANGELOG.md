@@ -10,6 +10,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 - Gate Custom Templates, organization rules, workspace history, and workspace combining with clear ROVER Pro upgrade messaging.
 - Complete the local 15-day full-feature trial flow and preserve the core local workflow after trial expiry.
 - Add Pro scheduled local capture with a daily time setting and browser alarm scheduling.
+- Publish pre-release pricing, privacy, support, cancellation, refund, and trial disclosures.
 - Add a local setting for retaining 5–50 revisions per workspace.
 - Add card-level organization previews for duplicate URLs, empty groups, and trimmed group names before local changes are saved.
 - Add selective opening of groups and tabs from an older workspace revision without replacing the current saved workspace.

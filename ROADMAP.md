@@ -22,7 +22,7 @@ These items make the local product ready for a public release and prepare paid f
 - [x] Extend local snapshots with selective tab/group recovery and revision comparison.
 - [x] Add scheduled capture.
 - [x] Add configurable local snapshot retention.
-- [ ] Publish pricing, refund, privacy, support, cancellation, and trial terms.
+- [x] Publish pricing, refund, privacy, support, cancellation, and trial terms.
 
 ## Priority 3 — licensing and subscriptions
 
