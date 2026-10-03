@@ -7,6 +7,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 - Add a local entitlement state model for Free, 15-day Trial, Pro Local, Pro Sync, and Expired without connecting payment or cloud services.
 - Show local entitlement status, offer the 15-day trial, and enforce the two-workspace Free creation limit without blocking exports or existing data.
 - Add local workspace recipes with named project placeholders, resolved previews, and apply/save controls.
+- Add card-level organization previews for duplicate URLs, empty groups, and trimmed group names before local changes are saved.
 - Keep recent local workspace revisions with comparison and whole-revision recovery from each workspace card.
 - Save the current tab or tab group directly from the browser context menu.
 - Preview browser bookmark HTML and pasted URL-list imports before adding, replacing, or merging workspaces.
