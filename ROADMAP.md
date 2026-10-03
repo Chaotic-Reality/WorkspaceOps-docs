@@ -11,7 +11,7 @@ Priority order agreed from the product discussion. Checked items are implemented
 - [x] Editor collapse/expand controls, drag auto-scroll, and a fixed last-position drop target.
 - [x] Preserve pinned tabs, active tabs, group colors, and collapsed state.
 - [x] Export JSON/YAML as nested groups with their tabs; continue importing legacy files.
-- [ ] Verify save, reload, export/import, and restore ordering without losing existing data.
+- [x] Verify save, reload, export/import, and restore ordering without losing existing data.
 - [x] Add an automated full-cycle regression check for JSON and YAML, covering multiple windows, pinned tabs, interleaved ungrouped tabs, active tabs, and group properties. Live browser acceptance remains pending.
 
 ## 2. Combine workspaces
