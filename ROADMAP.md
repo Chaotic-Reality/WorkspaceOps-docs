@@ -99,7 +99,9 @@ This is a gate before public release, regardless of feature priority.
 - [ ] Validate demand for optional automation, workspace version history, and opt-in sync before building paid tiers.
 - [ ] Implement local entitlement simulation: Free, Trial, Pro Local, Pro Sync, and Expired states.
 - [ ] Define the two-workspace limit without deleting or hiding existing data after trial expiry.
-- [ ] Select a hosted checkout/licensing provider; Chrome Web Store Payments is not the licensing authority.
+- [ ] Select a hosted checkout/licensing provider; Paddle is the first candidate, with Lemon Squeezy and Stripe as comparison options. Chrome Web Store Payments is not the licensing authority.
+- [ ] Implement a server-side entitlement ledger driven by signed purchase, renewal, cancellation, refund, and chargeback events.
+- [ ] Test portable account activation across Chrome, Edge, browser profiles, devices, offline grace, and provider outages.
 - [ ] Publish pricing, refund, privacy, support, and cancellation terms before accepting payment.
 
 ## 8. Next local workflow improvements
