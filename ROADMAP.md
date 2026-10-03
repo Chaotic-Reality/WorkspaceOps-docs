@@ -28,6 +28,7 @@ These items make the local product ready for a public release and prepare paid f
 
 - [x] Select a hosted checkout/licensing provider for implementation planning: Paddle is the first choice, with Lemon Squeezy as fallback and Stripe as a later comparison; no account is connected.
 - [ ] Implement a server-side entitlement ledger driven by signed purchase, renewal, cancellation, refund, and chargeback events.
+- [x] Build and test the provider-neutral entitlement ledger core with signature verification, idempotency, stale-event protection, and auditable grants.
 - [ ] Keep the license tied to the purchaser account, not a browser, device, browser profile, or ROVER sync profile.
 - [ ] Support auditable gifted, promotional, support, and pilot Pro grants with optional expiration and no payment event required.
 - [ ] Support activation across Chrome and Edge with a short-lived signed entitlement and documented offline grace.

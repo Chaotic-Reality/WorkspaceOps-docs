@@ -12,6 +12,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 - Add Pro scheduled local capture with a daily time setting and browser alarm scheduling.
 - Publish pre-release pricing, privacy, support, cancellation, refund, and trial disclosures.
 - Select Paddle as the first hosted checkout/licensing provider for planning, with Lemon Squeezy retained as fallback; no payment account is connected.
+- Add a provider-neutral entitlement ledger core with signed-event verification, duplicate protection, stale-event handling, and gifted grant support.
 - Add a local setting for retaining 5–50 revisions per workspace.
 - Add card-level organization previews for duplicate URLs, empty groups, and trimmed group names before local changes are saved.
 - Add selective opening of groups and tabs from an older workspace revision without replacing the current saved workspace.
