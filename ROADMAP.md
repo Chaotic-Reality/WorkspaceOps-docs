@@ -75,6 +75,7 @@ This is the selected default direction. The proposed starting colors below must 
 
 - [x] Keyboard shortcuts for capture, search, and restore within the manager.
 - [x] Custom group emojis, including a picker and typed/pasted emoji names.
+- [ ] Add a privacy-safe icon library for workspace groups, with bundled icons and optional local favicon resolution; external icon APIs must be explicitly opt in.
 - [x] Workspace thumbnails generated locally from group colors/titles.
 - [x] Import conflict choices: add copy, replace, or merge with preview and atomic stale-destination protection.
 
@@ -103,6 +104,7 @@ Agreed direction from the competitor review; implementation remains pending. Com
 
 - [x] Search saved tab titles, URLs, domains, and groups; open individual results or all matches from a workspace card.
 - [x] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
+- [x] Choose whether selected tabs/groups are added to the current window or opened in new window(s).
 - [x] Offer open-missing-only restore with URL duplicate detection while preserving the existing full-workspace restore path.
 - [x] Add recent local snapshots, revision comparison, and whole-revision recovery; selective tab/group recovery remains pending.
 - [x] Capture individual tabs/groups through context-menu actions; toolbar capture remains available for full workspaces.
