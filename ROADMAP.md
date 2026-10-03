@@ -102,12 +102,13 @@ This is a gate before public release, regardless of feature priority.
 Agreed direction from the competitor review; implementation remains pending. Complete the release gate before public launch.
 
 - [x] Search saved tab titles, URLs, domains, and groups; open individual results or all matches from a workspace card.
-- [ ] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
+- [x] Restore selected tabs/groups and preview already-open duplicates, including an open-missing-only option.
 - [x] Offer open-missing-only restore with URL duplicate detection while preserving the existing full-workspace restore path.
 - [x] Add recent local snapshots, revision comparison, and whole-revision recovery; selective tab/group recovery remains pending.
 - [x] Capture individual tabs/groups through context-menu actions; toolbar capture remains available for full workspaces.
 - [x] Preview imports from browser bookmark HTML and pasted URL lists; Toby-specific export mapping remains pending.
 - [x] Reload the current browser window from a saved workspace while keeping the ROVER manager page open.
+- [x] Let users choose whether a workspace opens in new windows or replaces the current window, with a saved default preference.
 - [ ] Add reusable workspace recipes with user-supplied project values.
   - **Definition:** Let a user save a repeatable workspace recipe with placeholders such as project name, environment, or client. Applying a recipe should create or update a workspace after showing the resolved URLs and groups for review. Recipes remain local until an explicit sync feature exists.
 - [ ] Preview local organization rules and duplicate cleanup.
