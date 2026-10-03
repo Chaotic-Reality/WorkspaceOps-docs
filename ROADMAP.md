@@ -20,7 +20,8 @@ These items make the local product ready for a public release and prepare paid f
 - [x] Add reusable workspace recipes with project placeholders and a resolved preview.
 - [x] Add local organization rules and duplicate cleanup with a reviewable dry run.
 - [x] Extend local snapshots with selective tab/group recovery and revision comparison.
-- [ ] Add scheduled capture and configurable local retention.
+- [ ] Add scheduled capture.
+- [x] Add configurable local snapshot retention.
 - [ ] Publish pricing, refund, privacy, support, cancellation, and trial terms.
 
 ## Priority 3 — licensing and subscriptions
