@@ -8,6 +8,7 @@ ROVER Workspaces is in development. These notes describe development builds, not
 - Show local entitlement status, offer the 15-day trial, and enforce the two-workspace Free creation limit without blocking exports or existing data.
 - Add local workspace recipes with named project placeholders, resolved previews, and apply/save controls.
 - Add card-level organization previews for duplicate URLs, empty groups, and trimmed group names before local changes are saved.
+- Add selective opening of groups and tabs from an older workspace revision without replacing the current saved workspace.
 - Keep recent local workspace revisions with comparison and whole-revision recovery from each workspace card.
 - Save the current tab or tab group directly from the browser context menu.
 - Preview browser bookmark HTML and pasted URL-list imports before adding, replacing, or merging workspaces.
