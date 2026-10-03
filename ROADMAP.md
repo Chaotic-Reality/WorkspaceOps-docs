@@ -145,6 +145,7 @@ These are future capabilities. The current extension does not upload surveys, fe
 - [ ] Keep the purchaser/license identity separate from browser profiles, ROVER profiles, and devices so one person can activate Pro across supported browsers.
 - [ ] Add explicit profile switching, linked-device management, conflict previews, unlinking, and cloud deletion without deleting local data.
 - [ ] Add Google Drive app-data backup first, then OneDrive app-folder backup, using minimum provider permissions.
+- [ ] Use OAuth 2.0 authorization code with PKCE, state validation, token revocation, account switching, and no client secrets in the extension for every provider connection.
 - [ ] Evaluate ROVER-hosted encrypted sync using Cloudflare Workers, D1, and R2 only after provider backup demand is validated.
 - [ ] Design profile isolation, conflict handling, device unlinking, encryption/key recovery, and deletion before enabling sync.
 - [ ] Evaluate OneDrive/SharePoint sync and shared team workspaces.
