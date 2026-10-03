@@ -95,8 +95,12 @@ This is a gate before public release, regardless of feature priority.
 - [x] Document versioning, rollback, and store submission steps; see [release process](RELEASING.md).
 - [x] Include a package verification record with ZIP/file checksums and checkout details; keep browser acceptance explicitly separate.
 - [ ] Decide monetization after validating the core experience; no billing secrets in extension code.
-- [x] Prepare a private free/paid proposal; pricing and entitlements are not implemented or announced.
+- [x] Prepare a private free/paid proposal with a 15-day full-feature trial, two-workspace Free tier, person-bound licensing, and separate Local Pro/Sync Pro value.
 - [ ] Validate demand for optional automation, workspace version history, and opt-in sync before building paid tiers.
+- [ ] Implement local entitlement simulation: Free, Trial, Pro Local, Pro Sync, and Expired states.
+- [ ] Define the two-workspace limit without deleting or hiding existing data after trial expiry.
+- [ ] Select a hosted checkout/licensing provider; Chrome Web Store Payments is not the licensing authority.
+- [ ] Publish pricing, refund, privacy, support, and cancellation terms before accepting payment.
 
 ## 8. Next local workflow improvements
 
@@ -133,8 +137,12 @@ These are future capabilities. The current extension does not upload surveys, fe
 ## 10. Far-future profile sync and team features
 
 - [ ] Evaluate browser sync after local workflows are stable.
-- [ ] Introduce user-named ROVER Workspaces profiles such as Personal and Work, with explicit mapping of each browser installation/profile to a sync profile.
+- [ ] Introduce user-named ROVER Workspaces profiles such as Personal, Work, Scouts, and Client projects, with explicit mapping of each browser installation/profile to a sync profile.
 - [ ] Support opt-in cross-browser/device cloud sync without automatically merging profiles based on matching names or email addresses.
+- [ ] Keep the purchaser/license identity separate from browser profiles, ROVER profiles, and devices so one person can activate Pro across supported browsers.
+- [ ] Add explicit profile switching, linked-device management, conflict previews, unlinking, and cloud deletion without deleting local data.
+- [ ] Add Google Drive app-data backup first, then OneDrive app-folder backup, using minimum provider permissions.
+- [ ] Evaluate ROVER-hosted encrypted sync using Cloudflare Workers, D1, and R2 only after provider backup demand is validated.
 - [ ] Design profile isolation, conflict handling, device unlinking, encryption/key recovery, and deletion before enabling sync.
 - [ ] Evaluate OneDrive/SharePoint sync and shared team workspaces.
 - [ ] Add other browsers only when customer demand and market share justify the maintenance cost.
